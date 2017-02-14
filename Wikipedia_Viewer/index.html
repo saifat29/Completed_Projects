@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wikipedia Viewer</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link href="css/style.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <!-- <div class="container-fluid blurredBg blurred" id="background"></div> -->
+
+        <div class="container">
+          <div class="row" id="titleRow">
+            <div class="col-md-12">
+              <h4 class="text-center" id="title">Wikipedia Viewer</h4>
+            </div>
+          </div>
+
+          <div class="row" id="inputBoxRow">
+            <div class="col-md-12">
+              <span class="fa fa-search"></span>
+              <input type="text" name="query" id="query" autofocus />
+            </div>
+          </div>
+
+          <div class="row" id="buttonsRow">
+            <div class="col-md-12">
+              <button id="submitBtn">Submit</button>
+              <button id="randomBtn">Random</button>
+            </div>
+          </div>
+
+          <div class="row" id="cardsRow">
+            <div class="col-md-12">
+              <ul id="resultsList">
+              </ul>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+        <script src="script/jquery.min.js"></script>
+        <script src="script/bootstrap.min.js"></script>
+        <script src="script/script.js"></script>
+    </body>
+</html>

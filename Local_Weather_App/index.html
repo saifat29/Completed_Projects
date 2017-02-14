@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Local Weather App</title>
+        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="weather-icons-master/css/weather-icons.min.css">
+        <link href="css/style.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+        <div class="container">
+          <div class="row" id="titlerow">
+            <div class="col-md-12 col-sm-12">
+              <h1 id="title">Local Weather</h1>
+            </div>
+          </div><!-- end title row -->
+          <div class="row" id="locationrow">
+            <div class="col-md-12 col-sm-12" id="locationcol">
+              <h2 id="location"></h2>&nbsp;
+              <h2 id="country"></h2>
+            </div>
+          </div><!-- end country location/country row -->
+
+          <div class="row" id="temprow">
+            <div class="col-md-12" id="tempcol">
+              <div id="icon"></div>
+              <div id="temp"></div>
+            </div>
+          </div><!-- end temp row -->
+
+          <div class="row">
+            <div class="col-md-12">
+              <h3 id="description"></h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12" id="celbtncol">
+              <button id="celbtn" class="tempbtn">C</button>
+              <button id="fahrbtn" class="tempbtn">F</button>
+            </div>
+          </div><!-- end btn row -->
+        </div><!-- end container -->
+    
+        
+        
+        <script src="script/jquery.min.js"></script>
+        <script src="script/bootstrap.min.js"></script>
+        <script src="script/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
+@import url(https://fonts.googleapis.com/css?family=Grand+Hotel);
+@import url(https://fonts.googleapis.com/css?family=Ovo);
+
+body {
+  background-color: #161616;
+  color: #fff;
+  text-shadow: 1px 1px 10px #000;
+}
+
+#titlerow {
+  padding: 10px 0px 20px 0px;
+}
+
+#title {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Sacramento', cursive;
+}
+
+#locationcol {
+  margin: 2px;
+}
+
+#locationcol {
+  text-align: center;
+  font-family: 'Ovo', serif;
+}
+
+#locationcol h2{
+  font-size: 30px;
+  display: inline;
+}
+
+#temprow {
+  padding: 55px 0px 0px 0px;
+}
+
+#tempcol {
+  text-align: center;
+  font-size: 155px;
+  font-family: 'Sacramento', cursive;
+}
+
+#temp {
+  display: inline-block;
+}
+
+#icon {
+  display: inline-block;
+}
+
+sup {
+  font-size: 40px;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -100px;
+}
+
+#description {
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+#celbtncol {
+  text-align: center;
+  padding: 20px 0px 50px 0px;
+}
+/*
+.wi {
+  font-size: 180px;
+}
+*/
+
+.tempbtn {
+  transition: all 0.3s ease 0s;
+  background: #000;
+  width: 50px;
+  box-shadow: 3px 4px 5px #000;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 100%;
+  color: #fff;
+  font-family: 'Ovo', serif;
+  outline: none;
+}
+
+#celbtn {
+  margin: 0px 15px 0px 15px;
+}
+
+#fahrbtn {
+  margin: 0px 15px 0px 15px;
+}
