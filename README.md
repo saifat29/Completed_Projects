@@ -1,5 +1,5 @@
 # web_dev
-Wikipedia Viewer - https://saifat29.github.io/Completed_Projects/Wikipedia_Viewer/
+<a href = "https://saifat29.github.io/Completed_Projects/Wikipedia_Viewer/">Wikipedia Viewer</a>
 
 
 Quote Machine - https://saifat29.github.io/Completed_Projects/Random_Quote_Machine/
