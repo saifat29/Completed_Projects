@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Words</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" rel="stylesheet">-->
+  <link href="css/materializecss/materialize.min.css" rel="stylesheet">
+	<link href="css/style2.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="bannerbg">
+    <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Words</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
+        <ul class="right hide-on-med-and-down">
+          <li id="home" class="navitem"><a href="#">Home</a></li>
+          <li id="knowmore" class="navitem"><a href="#postbanner">Know More</a></li>
+          <li id="contact" class="navitem"><a href="#about">Contact</a></li>
+          <li id="login" class="navitemSpecial" data-target="#loginModal" data-toggle="modal"><a class="waves-effect waves-light btn modal-trigger" href="#loginModal">Login</a></li>
+          <li id="signup" class="navitemSpecial" data-target="#signupModal" data-toggle="modal"><a class="waves-effect waves-light btn modal-trigger" href="#signupModal">Sign Up</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li id="home"><a href="#">HOME</a></li>
+          <li id="knowmore"><a href="#postbanner">KNOW MORE</a></li>
+          <li id="contact"><a href="#about">CONTACT</a></li>
+          <li id="login" class="navitemSpecial" data-target="#loginModal" data-toggle="modal"><a class="waves-effect waves-teal modal-trigger" href="#loginModal">LOGIN</a></li>
+           <li id="signup" class="navitemSpecial" data-target="#signupModal" data-toggle="modal"><a class="waves-effect waves-teal modal-trigger" href="#signupModal">SIGN UP</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+    <div class="mycontainer">
+      <div id="bannerrow">
+        <div class="row">
+          <div class="col m12 s12 l12">
+            <h1 id="maintitle"><strong>Words</strong></h1>
+          </div>  <!-- end col-md-12 -->
+        </div>  <!-- end row -->
+        
+        <div class="row">
+          <div class="col m12 s12 l12">
+            <h3 id="mainsubtitle">SHORT <span class="ubuntucolor">STORIES</span> & <span class="themecolor">POEMS</span></h3>
+          </div>  <!-- end col-md-12 -->
+        </div>  <!-- end row -->
+      </div>  <!-- end bannerrow -->
+    </div>  <!-- end mycontainer -->
+  </div>  <!-- end bannerbg -->
+
+  <div class="mycontainer">
+    <div class="row" id="postbanner">
+      <div class="col m12 s12 l12">
+        <h2>Get your masterpiece published now, let the world see it.</h2>
+        <h4>Join us in 3 easy steps</h4>
+      </div>  <!-- end col-md-12 -->
+    </div>  <!-- end postbanner -->
+
+    <div class="row" id="signsteps">
+        <div class="col m4 s12 l4 steps">
+          <i class="circle fa fa-user-plus"></i>
+          <h2 class="dosis">SIGN UP</h2>
+          <p>Registering with us is a cake walk.<br> Fill in your basic credentials, choose<br> your @username & password<br> and you're ready to write.</p>
+        </div>  <!-- end col-md-4 -->
+        <div class="col m4 s12 l4 steps">
+          <i class=" circle fa fa-pencil"></i>
+          <h2 class="dosis">START WRITING</h2>
+          <p>Gather your thoughts and compose.<br> Just remember one thing, your work<br> on WORDS should be short. After all you've<br> MS Word to write your novel.</p>
+        </div>  <!-- end col-md-4 -->
+        <div class="col m4 s12 l4 steps">
+          <i class=" circle fa fa-paragraph"></i>
+          <h2 class="dosis">PUBLISH YOUR WORK</h2>
+          <p>Done with your masterpiece, publish<br> your work after that. Let the <br>world know the next<br> Shakespeare is on WORDS.</p>
+        </div>  <!-- end col-md-4 -->
+      </div>  <!-- end signsteps -->
+
+      <div class="row" id="quotebox">
+        <div class="col m12 s12 l12" id="quoteboxcol">
+          <i class="fa fa-quote-left"></i>
+          <p id="quote"></p>
+          <i class="fa fa-quote-right"></i>
+          <p id="author"></p>
+        </div>  <!-- end quoteboxcol -->
+      </div>  <!-- end quotebox -->
+
+       <div class="row" id="about">
+        <div class="col m12 s12 l12">
+          <h2 class="roboto">About <span class="ubuntucolor">Words</span></h2>
+          <p class="roboto">We at WORDS strive to connect amateur writers and poets with<br> the world. Helping writers and poets gain popularity and create<br> connection with other like minded people gives US happiness.</p>
+        </div> <!-- end col-md-12 --> 
+        
+        <div class="row">
+          <div class="col m6 s12 l6">
+            <h4 class="roboto leftright">We'd like to hear from you</h4>
+            <form id="feedbackForm" method="post" action="feedbackform.php" name="feedbackForm">
+              <input id="nameBox" name="name" type="text" placeholder="Name" required><br>
+              <input id="mailBox" name="emailid" type="text" placeholder="E-mail" required><br>
+              <textarea id="messageBox" name="message" type="text" placeholder="Your Message" maxlength="200" required></textarea><br><br>
+              <button id="formButton" type="submit" name="feedsubmit" class="waves-effect waves-light btn"><i class="fa fa-paper-plane"></i>&nbsp;&nbsp;SUBMIT</button>
+            </form>
+           </div>  <!-- end col-md-6 -->
+
+           <div class="col m6 s12 l6">
+            <h4 class="roboto leftright">Social Network</h4>
+            <a class="smallCircle fa fa-facebook btn-floating btn-large waves-effect waves-light"></a><br><br>
+            <a class="smallCircle fa fa-instagram btn-floating btn-large waves-effect waves-light"></a><br><br>
+            <a class="smallCircle fa fa-github btn-floating btn-large waves-effect waves-light"></a><br><br>
+           </div>  <!-- end col-md-6 -->
+          </div>  <!-- end row -->
+        </div>  <!-- end aboutrow -->
+
+      <footer class="row" id="footer">
+        <div class="col m12 s12 l12">
+          <h4><i class="fa fa-copyright"></i>&nbsp;2016 All rights reserved</h4>
+        </div>
+      </footer>  <!-- end footer -->
+
+      <a class="btn-floating btn-large waves-effect waves-light red" href="#" id="back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+     
+
+  <!-- Login/Sign Up Modals -->
+
+    <!-- Login Modal -->
+
+    <?php
+    include("login.php");
+    ?>
+
+    <?php
+    include("update.php");
+    ?>
+
+    <div id="loginModal" class="modal bottom-sheet">
+      <div class="modal-content">
+        <h4><i class="fa fa-user"></i> &nbsp;Login</h4><br>
+        <form id="loginForm" name="loginForm" action="<?php $_SERVER['PHP_SELF']?>" onsubmit="" method="post" autocomplete="on">
+            <input id="loginUsername" name="loginUsername" type="email" placeholder="Username (Email)" maxlength="30" required><br>
+            <input id="loginPassword" name="loginPassword" type="password" placeholder="Password" maxlength="25" autocomplete="off" required><br><br>
+            <button id="loginButton" name="loginButton" type="submit" class="waves-effect waves-light btn"><i class="fa fa-sign-in"></i>&nbsp;LOGIN</button>
+        </form>  
+      </div>
+
+      <div class="modal-footer">
+        <!-- <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a> -->
+      </div>
+    </div>  <!-- End Login Modal -->
+
+    <!-- Sign Up Modal -->
+
+    <?php
+    include("signup.php");
+    ?>
+
+    <div id="signupModal" class="modal bottom-sheet">
+      <div class="modal-content">
+        <h4><i class="fa fa-user-plus"></i>&nbsp;Sign Up</h4><br>
+        <form id="signupForm" name="signupForm" action="<?php $_SERVER['PHP_SELF']?>" onsubmit="" method="post" autocomplete="on">
+            <div class="row">
+              <div class="col m6 s6 l6">
+                <input id="fname" name="fname" type="text" placeholder="First Name*" maxlength="20" required>
+              </div>
+              <div class="col m6 s6 l6">
+                <input id="lname" name="lname" type="text" placeholder="Last Name*" maxlength="20" required><br>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col m6 s6 l6">
+                <div id="gender">
+                  <span>Gender*</span>
+                   <select name="gender" required>
+                    <option>Male</option>
+                    <option>Female</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col m6 s6 l6">
+                <div id="dob">
+                  <span>D.O.B.*</span>
+                  <input type="date" name="dob" required>
+                </div>
+              </div>
+            </div>
+    
+            <input id="signupEmail" name="signupEmail" type="email" placeholder="Email Address*" maxlength="30" required><br>
+            <input id="signupPassword" name="signupPassword" type="password" placeholder="Set A Password*" maxlength="25" autocomplete="off" required><br><br>
+            <button id="signupButton" name="signupButton" type="submit" class="waves-effect waves-light btn"><i class="fa fa-thumbs-o-up"></i>&nbsp;GET STARTED</button>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <!-- <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a> -->
+      </div>
+    </div>
+    <!-- End Sign Up Modal -->
+
+
+
+  </div>  <!-- mycontainer -->
+
+
+	<script src="script/jquery-2.2.1.min.js" type="text/javascript"></script>
+	<!--<script src="script/bootstrapjs/bootstrap.min.js" type="text/javascript"></script>-->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script> -->
+  <script src="script/materializejs/materialize.min.js" type="text/javascript"></script>
+	<script src="script/myscript.js" type="text/javascript"></script>
+</body>
+
+</html>
