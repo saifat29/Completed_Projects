@@ -9,7 +9,7 @@ $(document).ready(function() {
   myFunction();
 
   function quoteFunc() {
-  var url = "http://api.forismatic.com/api/1.0/?method=getQuote&key=&format=jsonp&lang=en&jsonp=?";
+  var url = "https://cors.now.sh/http://api.forismatic.com/api/1.0/?method=getQuote&key=&format=jsonp&lang=en&jsonp=?";
 
   $.getJSON(url, function(data) {
     //alert(data["quoteText"].length);
